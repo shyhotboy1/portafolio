@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="description" content="Jan Manuel Báez - Cybersecurity Analyst" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link type="image/x-icon" href="public/image/logo.jpeg" rel="icon" />
+	<link href="https://fonts.googleapis.com/css?family=K2D:300|Rambla:700&display=swap" rel="stylesheet" />
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.min.css" />
+	<link rel="stylesheet" href="public/css/style.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500,600" rel="stylesheet">
+    <link rel="stylesheet" href="js/box.js">
+	<title>jmbaez</title>
+</head>
+<body>
+	<div class="loader">
+		<div class="loader__container">
+			<div class="loader__hexagon"></div>
+			<p class="loader__message">Loading...</p>
+		</div>
+	</div>
+
+	<div class="blanketBody"></div>
+
+	<div class="control-actions">
+		<span class="control-actions__menu"><i class="fas fa-hamburger"></i></span>
+	</div>
+
+	<div class="container-master">
+		<!-- Navbar for mobile and tablet views -->
+		<div class="myself__container__menu">
+			<div class="myself__data">
+				<div class="myself__data__container-avatar">
+					<div class="myself__data__avatar"></div>
+				</div>
+				<div class="myself__data__info">
+					<h4 class="myself__data__info__fullname">Jan Manuel Báez</h4>
+					<p class="myself__data__info__role">Cybersecurity Analyst</p>
+				</div>
+			</div>
+
+			<ul class="myself__menu">
+				<a href="#home" class="myself__menu__link myself__menu__link--active">
+					<li class="myself__menu__item">
+						<span class="fa-stack fa-2x">
+							<i class="fas fa-square fa-stack-2x"></i>
+							<i class="fa fa-home fa-stack-1x fa-inverse"></i>
+						</span>
+						Home
+					</li>
+				</a>
+				<a href="#welcome" class="myself__menu__link">
+					<li class="myself__menu__item">
+						<span class="fa-stack fa-2x">
+							<i class="fas fa-square fa-stack-2x"></i>
+							<i class="fa fa-lightbulb fa-stack-1x fa-inverse"></i>
+						</span>
+						About me
+					</li>
+				</a>
+				<!-- <a href="#portfolio" class="myself__menu__link">
+					<li class="myself__menu__item">
+						<span class="fa-stack fa-2x">
+							<i class="fas fa-square fa-stack-2x"></i>
+							<i class="fa fa-briefcase fa-stack-1x fa-inverse"></i>
+						</span>
+						My Portfolio
+					</li>
+				</a> -->
+				<a href="#experience" class="myself__menu__link">
+					<li class="myself__menu__item">
+						<span class="fa-stack fa-2x">
+							<i class="fas fa-square fa-stack-2x"></i>
+							<i class="fa fa-address-book fa-stack-1x fa-inverse"></i>
+						</span>
+						Past Experience
+					</li>
+				</a>
+				<a href="#" target="_blank" class="myself__menu__link">
+					<li class="myself__menu__item">
+						<span class="fa-stack fa-2x">
+						</span>
+						
+					</li>
+				</a>
+			</ul>
+		</div>
+
+		<!-- This is the main section (sidebar) where I'm showing the basic information about myself -->
+		<section class="container__myself">
+			<span class="myself__menu__action"><i class="fas fa-hamburger"></i></span>
+
+			<article class="myself">
+				<div class="myself__profile">
+					<div class="myself__container__avatar">
+						<div class="myself__avatar"></div>
+					</div>
+					<h1 class="myself__fullname">Jan Manuel Báez</h1>
+					<p class="myself__description">Cybersecurity Analyst</p>
+					<p class="myself__description">TIC's Engineer</p>
+					<!-- <p class="myself__description">Organizador en <a href="http://meetup.com/monteriajs" class="jf-links myself__community" target="_blank">MonteríaJS</a></p> -->
+				</div>
+				<div class="myself__footer">
+					<div class="myself__footer__by">
+						<p>Made with <i class="fa fa-heart" style="color:#e75353;"></i></p>
+						<p>© 2022</p>
+					</div>
+					<div class="myself__footer__social">
+						<a class="myself__footer__link" href="https://www.linkedin.com/in/jan-manuel-b%C3%A1ez-de-la-cruz-5ab880235/" target="_blank">
+							<i class="fab fa-linkedin"></i>
+						</a>
+						<a class="myself__footer__link" href="https://github.com/shyhotboy1" target="_blank">
+							<i class="fab fa-github-square"></i>
+						</a>
+					</div>
+				</div>
+			</article>
+		</section>
+
+		<!-- Main container -->
+		<section class="container__articles">
+			<!-- Menu bar -->
+			<nav class="menu">
+				<ul class="menu-list">
+					<a href="#welcome" class="menu-list__link menu-list__link--active">
+						<li class="menu-list__item">About me</li>
+					</a>
+					<!-- <a href="#portfolio" class="menu-list__link">
+						<li class="menu-list__item">My Portfolio</li>
+					</a> -->
+					<a href="#experience" class="menu-list__link">
+						<li class="menu-list__item">Past Experience</li>
+					</a>
+				</ul>
+			</nav>
+
+			<article class="welcome article--show" id="welcome">
+				<h2 class="welcome__title">Welcome!</h2>
+				<p class="welcome__description"
+					>My name is <strong>Jan</strong>, I'm a Cybersecurity Analyst and I'm located in Santo Domingo, here in Dominican Republic, DR.
+					I make as a hobby red teaming in my free time. However, my area is blue teaming, Incident Reponse to be exact.
+				</p>
+
+				<!-- <p class="welcome__description">Mi nombre es <strong>John</strong>, soy desarrollador y vivo en la ciudad de Montería. Mi lenguaje de programación favorito es <strong>javascript</strong>, con él he aprendido muchas cosas y con él desarrollo actualmente. Mi objetivo es usarlo como herramienta para crear soluciones tecnológicas a la medida de cualquier necesidad. <br /> Estoy convencido de que el trabajo en equipo es la mejor forma de avanzar en cualquier trabajo o proyecto. <br /><br />Hago parte de una gran comunidad llamada <a class="welcome__community" target="_blank" href="http://colombia-dev.org">Colombia.dev</a> y soy organizador de la comunidad <a class="welcome__community" target="_blank" href="http://www.meetup.com/monteriajs">MonteríaJS</a>, sobra decir que tienes las puertas abiertas para hacer parte de ellas.</p> -->
+
+				<h2 class="welcome__title">Blue Teaming Skills</h2>
+				<p class="welcome__description">Through the years where I've worked as a <strong>Blue Team Analyst</strong>, I've used different technologies. Down below I'd like to show you my current Skills and the rest of the certs I've used:</p>
+				<!-- <p class="welcome__description">A lo largo de los años en los que me he desempeñado como desarrollador he trabajado con diferentes tecnologías. A continuación quiero mostrarte mi stack de desarrollo actual y las herramientas con las que he trabajado.</p> -->
+
+				<div class="welcome__container-stack">
+					 <div class="welcome__stack">
+						<h4 class="welcome__stack__title">Servers</h4>
+						<div class="welcome__stack__tools">
+							<div class="welcome__stack__tool">
+								<i class="fab fa-ubuntu" style="color:#e95420;"></i>
+								<i class="fab fa-windows" style="color:#173093;"></i>
+								<i class="fab fa-linux" style="color:#0a0909;"></i>
+							</div>	
+						</div>
+					</div>
+					<div class="welcome__stack">
+						<h4 class="welcome__stack__title">Languages</h4>
+						<div class="welcome__stack__tools">
+							<div class="welcome__stack__tool">
+								<i class="fab fa-php" style="color:#4520e9;"></i>
+								<i class="fab fa-python" style="color:#173093;"></i>
+								<i class="fab fa-bash" style="color:#0a0909;"></i>
+							</div>	
+						</div>
+					</div>
+				</div>
+			</article>
+
+			<article class="experience" id="experience">
+				<h2 class="experience__title">Employment History</h2>
+				<div class="experience__item">
+					<h3 class="experience__item__title"><span class="experience__item__title__role">Cybersecurity Operator</span> | ETED</h3>
+					<h5 class="experience__item__subtitle">July 2021 - Present</h5>
+					<div class="experience__item__description">
+						<p>As Cybersecurity Operator in this company, I worked on many projects and tasks such as:</p>
+
+						<ul class="experience__item__task-list">
+							<li class="experience__item__task-list__item">
+								<span class="experience__item__task-list__item__title">IPAM | Cybersecurity Operator</span>
+								<ul class="experience__item__task-list__item__sublist">
+									<li>Installing an IP Address Managment Server, for inventary purposes.</li>
+									<li>Implemented security on the Virtual Server and Local Services.</li>
+									<li>Centralizing logs into the SIEM</li>
+								</ul>
+							</li>
+							<li class="experience__item__task-list__item">
+								<span class="experience__item__task-list__item__title">Fortinets |  Cybersecurity Operator</span>
+								<ul class="experience__item__task-list__item__sublist">
+									<li>Installing and configuring firewalls acroos the network.</li>
+									<li>Centralizing logs into the FortiAnalyzer.</li>
+									<li>Analyzing incidents and tracking down malicious traffic.</li>
+								</ul>
+							</li>
+							<li class="experience__item__task-list__item">
+								<span class="experience__item__task-list__item__title">IRP | Cybersecurity Operator</span>
+								<ul class="experience__item__task-list__item__sublist">
+									<li>Making an Incident Response Plan</li>
+									<li>Reinforcing the phases following NIST procedures.</li></ul>
+							</li>
+						</ul>
+					</div>
+				</div>
+					<main class="main">
+						<section class="sobre-mi">
+							<div class="contenedor contenedor-sobre-mi">
+								<div class="texto">
+									<p class="direccion"><span class="dir">C: portfolio/jan-baez</span></p>
+									<p class="descripcion">
+										<span id="tagline">
+											$cat my_Skills: <br><br>
+												- Bash Scripting, Python, PHP, C#, <br>
+												- SplunkD, Fortinalyzer, FortiSIEM, <br>
+												- Incident Response, Collecting Artifacts, Redline(Fireeye)<br>
+												- SCADA, Critical Infraestructure Security.<br><br>
+											$cat my_Certs: <br><br>
+											- eLearningSecurity Junior Penetration Tester<br>
+											- Diplomado en Ciberseguridad<br>
+											- CompTIA Cysa+(CS0-002) Complete Course & Practice Exam<br>
+											- OEA, Cybersecurity Training.<br>
+											- Blue Team Level 1
+									</p>
+								</div>
+							</div>
+
+				<!-- <h2 class="contact__title">¿Quieres hacer parte de MonteríaJS?</h2>
+				<p class="contact__description">¡Excelente! <br> <br> Puedes escribirme y comentarme de qué forma quieres hacer parte de la comunidad, es decir, ya sea como speaker, colaborador, patrocinador o formar parte del equipo organizador. <br> Ten la plena seguridad que estaremos con los brazos abiertos esperando a que contribuyas con tus ideas y tus conocimientos a través de la comunidad para transmitirlo hacia todas las personas que disfrutan y asisten a nuestros eventos. <br> <br> Puedes seguirnos en nuestras redes sociales ¡Te esperamos!</p>
+
+				<div class="contact__social">
+					<a class="contact__social__link" href="https://instagram.com/monteriajs" target="_blank">
+						<i class="fab fa-instagram" style="color: palevioletred;"></i>
+					</a>
+					<a class="contact__social__link" href="https://twitter.com/monteriajs" target="_blank">
+						<i class="fab fa-twitter-square" style="color: #2196F3;"></i>
+					</a>
+					<a class="contact__social__link" href="https://facebook.com/monteriajs" target="_blank">
+						<i class="fab fa-facebook-square" style="color: #4267b2;"></i>
+					</a>
+					<a class="contact__social__link" href="https://github.com/monteriajs" target="_blank">
+						<i class="fab fa-github-square" style="color: #2d2d2d;"></i>
+					</a>
+					<a class="contact__social__link" href="https://meetup.com/monteriajs" target="_blank">
+						<i class="fab fa-meetup" style="color: #ED1C24;"></i>
+					</a>
+				</div> -->
+			</article>
+		</section>
+	</div>
+
+	<script src="https://kit.fontawesome.com/74a0a4aba0.js"></script>
+	<script src="public/js/main.js"></script>
+</body>
+</html>
